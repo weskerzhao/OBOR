@@ -26,7 +26,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-
+//主页
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
