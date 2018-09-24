@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/id_iv_image"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:scaleType="centerCrop"
+        android:background="@color/main_menu_color_normal"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/linear_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/id_iv_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="@string/home_field_company_name"
+            android:textSize="@dimen/main_menu_text_size1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_industry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="@dimen/main_menu_text_size3"
+            android:text="@string/home_field_industry" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:gravity="bottom"
+            android:maxLines="2"
+            android:text="@string/home_field_address"
+            android:textSize="@dimen/main_menu_text_size2" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linear_info"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_toRightOf="@id/linear_tv"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_company_name_info"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="......"-->
+            <!--android:textSize="@dimen/main_menu_text_size1"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_industry_info"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:maxLines="2"-->
+            <!--android:textSize="@dimen/main_menu_text_size"-->
+            <!--android:text="......." />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_address_info"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="4dp"-->
+            <!--android:gravity="bottom"-->
+            <!--android:maxLines="2"-->
+            <!--android:textSize="@dimen/main_menu_text_size2"-->
+            <!--android:text="......" />-->
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/linear_look_over"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/linear_info"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear_look_over2"
+            android:layout_width="47dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+         >
+            <TextView
+                android:id="@+id/tv_look_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/corners_bg_blue"
+                android:text="@string/home_field_look_over"
+                android:textSize="@dimen/main_menu_text_size" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

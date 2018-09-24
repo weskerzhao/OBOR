@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">OBOR</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">一带一路</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- Login -->
+    <string name="login_next_step">下一步</string>
+    <!--首页-->
+    <string name="menu_home_page">首 页</string>
+    <string name="menu_info_page">资 讯</string>
+    <string name="menu_publish">发 布</string>
+    <string name="publish_request">发布需求</string>
+    <string name="publish_source">发布资源</string>
+    <string name="menu_discover_page">发 现</string>
+    <string name="menu_mine_page">我 的</string>
+
+    <!--Home-->
+    <string name="home_field_serch">请输入企业名称或行业</string>
+    <string name="home_field_company_name">公司名称</string>
+    <string name="home_field_all_category">全部分类</string>
+    <string name="home_field_industry">行业类别</string>
+    <string name="home_field_industry2">行业类型</string>
+    <string name="home_field_industry3">行业分类</string>
+
+    <string name="home_field_address">联系地址 :</string>
+    <string name="home_field_look_over">查看详情</string>
+    <string name="home_field_look_over_more">查看更多</string>
+
+
+    <!-- 资讯 -->
+    <string name="info_field_title">资 讯</string>
+    <string name="info_field_discover">发 现</string>
+    <string name="info_field_regulations">政策法规</string>
+    <string name="info_field_company_sound">企业之声</string>
+    <string name="info_field_industry_dynamic">行业动态</string>
+    <string name="info_field_work_mien">创业风采</string>
+
+    <!-- 我的 -->
+    <string name="info_field_mine">我 的</string>
+    <string name="info_field_edit_info">编辑信息</string>
+
+    <!-- 编辑信息 -->
+    <string name="edit_field_company_name">企业名称</string>
+    <string name="edit_field_industry_type">行业类别</string>
+    <string name="edit_field_linkman">联系人</string>
+    <string name="edit_field_phone">联系电话</string>
+    <string name="edit_field_email">联系邮箱</string>
+    <string name="edit_field_address">联系地址</string>
+    <string name="edit_field_company_introduction">企业简介:</string>
+
+
+    <!-- Common-->
+    <string name="common_field_check_info">认证信息</string>
+    <string name="common_field_checked">已认证</string>
+    <string name="common_field_unchecked">未认证</string>
+    <string name="common_field_message_center">消息中心</string>
+    <string name="common_field_my_request">我的需求</string>
+    <string name="common_field_own_source">拥有资源</string>
+    <string name="common_field_my_attention">我的关注</string>
+    <string name="common_field_safe_set">安全设置</string>
+    <string name="common_field_about_our">关于我们</string>
+    <string name="common_field_cancel">取消</string>
+    <string name="common_hint_request_source">请输入需求或资源</string>
+    <string name="common_hint_name">请输入名称</string>
+    <string name="common_hint_fill">请填写</string>
+    <string name="common_hint_select">请选择</string>
+    <string name="common_field_update">上传图片</string>
+    <string name="common_field_update_advice">建议尺寸(750px*360px)</string>
+    <string name="common_field_confirm">确认</string>
+    <string name="common_field_forget_pwd">忘记登录密码?</string>
+
+
+    <!-- 发布 -->
+    <string name="publish_field_title">标题</string>
+    <string name="publish_field_request">发布请求</string>
+    <string name="publish_field_source">发布资源</string>
+    <string name="publish_field_success_title">发布成功</string>
+    <string name="publish_field_success">发布成功  !</string>
+    <string name="publish_field_industry_category">行业类型</string>
+    <string name="publish_field_source_category">资源类型</string>
+    <string name="publish_field_cooperative">合作区域</string>
+    <string name="publish_field_cooperative_end">合作截止时间</string>
+    <string name="publish_field_contact_way">联系方式</string>
+    <string name="publish_field_cancel">取消</string>
+    <string name="publish_field_provide">我们提供:</string>
+    <string name="publish_field_want">我们需要:</string>
+    <string name="publish_field_cooperation">合作详情:</string>
+
+    <!-- Register -->
+    <string name="register_field_tittle">新用户注册</string>
+    <string name="register_field_company_name">企业名称</string>
+    <string name="register_field_industry">所属行业</string>
+    <string name="register_field_new_pwd">新登录密码</string>
+    <string name="register_field_new_pwd_success">重置密码成功</string>
+    <string name="register_message_new_pwd_success">重置密码成功 !</string>
+    <string name="register_field_back2home">返回首页 </string>
+    <string name="register_field_back2Login">返回登录</string>
+    <string name="register_field_new_reset_pwd">重置登录密码</string>
+    <string name="register_field_pwd">输入密码</string>
+    <string name="register_field_repwd">再次输入</string>
+    <string name="register_hint_company_name">请输入企业名称</string>
+    <string name="register_hint_industry_select">请选择所属行业</string>
+    <string name="register_hint_phone">请输入中国大陆手机号码</string>
+    <string name="register_hint_pwd">请输入6~13位密码</string>
+    <string name="register_hint_repwd">请再次输入密码</string>
+    <string name="register_hint_repwd_confirm">请再次输入以确认</string>
+    <string name="register_field_verify_fill">请输入验证码</string>
+    <string name="register_field_send_fill">发送验证码</string>
+
+
+    <!-- left_tittle -->
+    <string name="home_field_industry_info">行业资讯</string>
+    <string name="home_field_company_list">企业列表</string>
+    <string name="home_field_request_list">需求列表</string>
+    <string name="home_field_source_list">资源列表</string>
+    <string name="info_field_new_info">最新资讯</string>
+    <string name="info_field_hot_info">热门资讯</string>
+    <string name="throwable_request_fail">请求失败</string>
+    <string name="company_introduction">公司介绍</string>
+    <string name="request_introduction">需求简介</string>
+    <string name="resource_introduction">资源简介</string>
+    <string name="common_request">需求</string>
+    <string name="common_resource">资源</string>
+
+
+    <!-- Spinner -->
+    <string-array name="toolbar_serch_spinner">
+        <item>综合</item>
+        <item>名称</item>
+        <item>行业</item>
+    </string-array>
+    <string-array name="sort_type">
+        <item>正 序</item>
+        <item>逆 序</item>
+    </string-array>
+
+
+</resources>

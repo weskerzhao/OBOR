@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/serch_toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?android:attr/actionBarSize">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/toolbar_serch"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/corners_bg"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:src="@mipmap/serch"/>
+            <TextView
+                android:id="@+id/serch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/home_field_serch"
+                android:textSize="@dimen/main_menu_text_size1"
+                android:gravity="center_vertical"
+                android:background="@null"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="left|center"
+            android:src="@mipmap/extend" />
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

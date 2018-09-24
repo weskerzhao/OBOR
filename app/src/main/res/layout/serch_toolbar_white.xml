@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/serch_toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:minHeight="?android:attr/actionBarSize">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/toolbar_serch"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/corners_bg_grey"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/toolbar_serch_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView"
+                android:dropDownVerticalOffset = "5dp"
+                android:overlapAnchor="false"
+                android:background="@null"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:text="1111"
+                android:background="@drawable/vertical_segment"/>
+            <android.support.v7.widget.SearchView
+                     android:id="@+id/serch"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:inputType="text"
+
+                     android:gravity="center_vertical|left"
+                     app:queryHint="@string/home_field_serch"
+                     app:searchHintIcon="@null"
+                     app:searchIcon="@null"
+                     />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="left|center"
+            android:textStyle="bold"
+            android:text="@string/common_field_cancel" />
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wjbzg.www.obor.activity.PublishSuccessActivity">
+    <include layout="@layout/toolbar_reback_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/corners_bg_grey"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="95dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/publish_success"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/register_message_new_pwd_success"
+            android:textSize="@dimen/main_menu_text_size6"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textScaleX="1.1"/>
+        <Button
+            android:id="@+id/bt_back2home"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:background="@drawable/ellipse_bg_blue"
+            android:text="@string/register_field_back2home"
+            android:textColor="@color/main_menu_white"/>
+        <Button
+            android:id="@+id/bt_back2login"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:background="@drawable/ellipse_bg_blue"
+            android:text="@string/register_field_back2Login"
+            android:textColor="@color/main_menu_white"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
